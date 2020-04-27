@@ -1,4 +1,5 @@
-﻿using System;
+﻿using eShopSolution.Data.Enum;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -7,16 +8,13 @@ namespace eShopSolution.Data.Entities
     public class Order
     {
         public int Id { set; get; }
-
-        public string OrderDate { set; get; }
-
+        public DateTime OrderDate { set; get; }
         public string UserId { set; get; }
-
         public string ShipName { set; get; }
-
         public string ShipAddress { set; get; }
-
         public string ShipEmail { set; get; }
+        public string ShipPhoneNumber { set; get; }
+        public OrderStatus Status { get; set; }
 
         public List<OrderDetail> OrderDetails { get; set; }
     }
