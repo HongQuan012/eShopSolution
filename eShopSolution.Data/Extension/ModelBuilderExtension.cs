@@ -33,11 +33,6 @@ namespace eShopSolution.Data.Extension
                 },
                 new Category
                 {
-                    //Id = 2,
-                    //SortOrder = 2,
-                    //IsShowOnHome = true,
-                    //ParentId = null,
-                    //Status = Status.Active
                     Id = 2,
                     IsShowOnHome = true,
                     ParentId = null,
