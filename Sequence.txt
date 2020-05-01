@@ -1,1 +1,5 @@
-1.Create Entity -> Create Fluent API -> Migration -> Seeding Data
+1.Data.	Create Entity -> Create Fluent API -> Migration -> Seeding Data
+
+2.Application.	
+Create 2 interface: IPublicProductService + IManageProductService
+-> Create DTO (Data Transfer Object) : ProductCreateRequest + ProductUpdateRequest + ProductViewModel
